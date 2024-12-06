@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <title>contact</title>
+  <style>
+       /* General Reset */
+       body, h1, h2, p,ul,li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #4CAF50;
+}
+body {
+    background:url(portfolio\ img.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4CAF50;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+ main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: #333;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border-radius: 5px;
+      color: #ffffff;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #4CAF50;
+      color: white;
+      border-top: 2px solid #e8f5e9;
+    }
+    footer a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+</style>
+</head>
+<header>
+    <nav class="navbar">
+        <a href="about.html" class="logo">About me</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+  <main>
+    <section class="animate">
+      <h2>Who Am I?</h2>
+      <p class="animate">
+        Hello! My name is [Your Name], and I am a passionate web developer with a knack for building
+        visually appealing and functional websites. With a strong foundation in coding and a love for design,
+        I aim to create user-friendly, responsive, and modern web experiences.
+      </p>
+    </section>
+    <section class="animate">
+      <h2>Skills</h2>
+      <ul>
+        <li class="animate">HTML5, CSS, JavaScript, python and C </li>
+        <li class="animate">Database Management:  MySQL ,Excel </li>
+        <li class="animate">Debugging & Performance Optimization</li>
+      </ul>
+    </section>
+    <section class="animate">
+      <h2 >My Approach</h2>
+      <p class="animate">
+        I believe in writing clean, maintainable code and continuously learning to keep up with
+        the latest web technologies. My goal is to craft websites and applications that deliver
+        value and stand out in today’s fast-paced digital world.
+      </p>
+    </section>
+  </main>
+</body>
+
+  <footer>
+    <p>Find me on <a href="https://github.com/jawadsites" target="_blank">GitHub</a></p>
+    <p>&copy; 2024 Jawadkhaled.</p>
+  </footer>
+</html>
+
