@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <title>About Me - Web Developer Portfolio</title>
+  <style>
+       /* General Reset */
+       body, h1, h2, p,ul,li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #4CAF50;
+}
+body {
+    background:url(portfolio\ img.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4CAF50;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+ main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: #333;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border-radius: 5px;
+      color: #ffffff;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #4CAF50;
+      color: white;
+      border-top: 2px solid #e8f5e9;
+    }
+    footer a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+</style>
+</head>
+<header>
+    <nav class="navbar">
+        <a href="contact.html" class="logo">contact me</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+  <main>
+    <section class="contact animate">
+            <h1>Contact Me</h1>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+    </section>
+  </main>
+</body>
+  <footer>
+    <p>Find me on <a href="https://github.com/jawadsites" target="_blank">GitHub</a></p>
+    <p>&copy; 2024 Jawadkhaled.</p>
+  </footer>
+</html>
+
